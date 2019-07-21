@@ -28,12 +28,12 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     private ImageIcon upmouth;
     private ImageIcon downmouth;
 
-    private int lenghtofsnake = 7;    //?
+    private int lenghtofsnake = 3;    //?
 
     private int respownlenghtofsnake = lenghtofsnake;
 
     private Timer timer;
-    private int delay = 100;
+    private int delay =100;
     private ImageIcon snakeimage;
 
     private int[] enemyxpos = new int[34];
